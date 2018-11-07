@@ -1,0 +1,57 @@
+/*
+ *Aimee Cathers
+ *Due Date
+ *First Project 
+*/
+
+/* The universal selector */ 
+
+* {
+
+}  
+
+/* Body attributes here */
+
+body {
+background-color:white;
+color:black;
+font-family:monospace;
+} 
+th {
+    background-color:palegoldenrod;
+    color:;
+}
+td { 
+    background-color: paleturquoise;
+}
+table{ 
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+ol {
+    list-style-type: upper-alpha;  
+}
+
+ul {
+    list-style-type: lower-greek;
+    list-style-position: inside;
+
+}
+
+a:link {
+		color:palevioletred;
+        text-decoration-color: palevioletred;
+		text-decoration-style: solid; 
+		}
+a:visited {
+		Color: mediumvioletred;
+		}
+a:active
+a:hover{
+		Color: blue;
+		text-decoration: underline;
+		}
+a:focus	{
+		Color: red;
+		text-decoration: underline;
+		}
